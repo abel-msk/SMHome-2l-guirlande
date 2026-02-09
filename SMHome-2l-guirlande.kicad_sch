@@ -2673,6 +2673,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "~"
@@ -2682,9 +2683,10 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
 			(at 30.48 29.845 0)
 			(effects
 				(font
@@ -2717,6 +2719,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(instances
@@ -2898,6 +2901,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "~"
@@ -2907,9 +2911,10 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
 			(at 40.005 35.56 0)
 			(effects
 				(font
@@ -2942,6 +2947,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(instances
@@ -3311,6 +3317,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "~"
@@ -3320,9 +3327,10 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
 			(at 30.48 35.56 0)
 			(effects
 				(font
@@ -3355,6 +3363,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(instances
@@ -3383,6 +3392,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "~"
@@ -3392,9 +3402,10 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
 			(at 40.005 29.845 0)
 			(effects
 				(font
@@ -3427,6 +3438,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(instances
