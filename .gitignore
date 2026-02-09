@@ -1,5 +1,8 @@
 # MacOS files
 **/.DS_Store
 **/.idea
-
+**/#auto_saved_files#
 **/*.zip
+**/*.lck
+**/_autosave*
+**/fp-info-cache

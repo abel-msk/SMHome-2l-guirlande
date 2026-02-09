@@ -195,113 +195,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -1563,6 +1456,89 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -2681,17 +2657,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "Mechanical:MountingHole")
 		(at 30.48 29.845 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55e2b0b7-4dbc-4052-a7e6-c41a40e63f70")
 		(property "Reference" "TP1"
-			(at 33.02 25.2729 0)
+			(at 33.02 28.5749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2700,7 +2676,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 33.02 27.8129 0)
+			(at 33.02 31.1149 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2709,7 +2685,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.1mm"
-			(at 35.56 29.845 0)
+			(at 30.48 29.845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2718,7 +2694,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 29.845 0)
+			(at 30.48 29.845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2726,7 +2702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Mounting Hole without connection"
 			(at 30.48 29.845 0)
 			(effects
 				(font
@@ -2742,9 +2718,6 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "c62e3c27-a0c8-4863-b5c2-6e83a30d0d0e")
 		)
 		(instances
 			(project ""
@@ -2909,17 +2882,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "Mechanical:MountingHole")
 		(at 40.005 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "637896e6-7ae8-4bc9-afc9-055910c03883")
 		(property "Reference" "TP4"
-			(at 42.545 30.9879 0)
+			(at 43.18 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2928,7 +2901,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 42.545 33.5279 0)
+			(at 43.18 36.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2937,7 +2910,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.1mm"
-			(at 45.085 35.56 0)
+			(at 40.005 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2946,7 +2919,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.085 35.56 0)
+			(at 40.005 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2954,7 +2927,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Mounting Hole without connection"
 			(at 40.005 35.56 0)
 			(effects
 				(font
@@ -2970,9 +2943,6 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "d3e54989-f464-4614-8825-1edbc74766e9")
 		)
 		(instances
 			(project "SMHome-2l-guirlande"
@@ -3325,17 +3295,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "Mechanical:MountingHole")
 		(at 30.48 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7f2e26b-48d7-4e76-a0f7-d7e8e36eabdc")
 		(property "Reference" "TP2"
-			(at 33.02 30.9879 0)
+			(at 33.02 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3344,7 +3314,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 33.02 33.5279 0)
+			(at 33.02 36.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3353,7 +3323,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.1mm"
-			(at 35.56 35.56 0)
+			(at 30.48 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3362,7 +3332,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 35.56 0)
+			(at 30.48 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3370,7 +3340,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Mounting Hole without connection"
 			(at 30.48 35.56 0)
 			(effects
 				(font
@@ -3386,9 +3356,6 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "122688c7-b74a-486b-a4bc-ca3d1833cdb8")
 		)
 		(instances
 			(project "RainLight"
@@ -3400,17 +3367,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "Mechanical:MountingHole")
 		(at 40.005 29.845 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6ddee88-ef2b-405e-bece-409369e44b37")
 		(property "Reference" "TP3"
-			(at 42.545 25.2729 0)
+			(at 43.18 28.5749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3419,7 +3386,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 42.545 27.8129 0)
+			(at 43.18 31.1149 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3428,7 +3395,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.1mm"
-			(at 45.085 29.845 0)
+			(at 40.005 29.845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3437,7 +3404,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.085 29.845 0)
+			(at 40.005 29.845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3445,7 +3412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Mounting Hole without connection"
 			(at 40.005 29.845 0)
 			(effects
 				(font
@@ -3461,9 +3428,6 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "1a34d791-8aee-413d-9167-a01b8d57db2b")
 		)
 		(instances
 			(project "SMHome-2l-guirlande"
