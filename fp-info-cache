@@ -1,4 +1,4 @@
-26862240150555034
+26866046350214444
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -70832,6 +70832,13 @@ Yellow 5381 Series LED
 0
 2
 2
+Misc_local
+Simple hole
+wire loop with bead as test point, loop diameter 1.8mm, hole diameter 1.0mm
+test point wire loop bead
+0
+1
+1
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -101052,16 +101059,23 @@ Dinkle DT-55-B01X Terminal Block  pitch 10.00mm
 30
 30
 TerminalBlock_Local
-ScrewTerminal_2pin_5mm
-WR-TBL SERIE 102 - 5.00 MM HORIZ. ENTRY MODULAR
-WR-TBL SERIE 102 - 5.00 MM HORIZ. ENTRY MODULAR
+ScrewTerminal_KF7.62_2P
+
+
 0
 2
 2
 TerminalBlock_Local
-ScrewTerminal_3pin_5mm
-WR-TBL SERIE 102 - 5.00 MM HORIZ. ENTRY MODULAR
-WR-TBL SERIE 102 - 5.00 MM HORIZ. ENTRY MODULAR
+ScrewTerminal_KF301_2pin_5mm
+Screw terminal block. DEGSON 301.  MF301; KF301  5mm, 2pin
+Screw terminal
+0
+2
+2
+TerminalBlock_Local
+ScrewTerminal_KF301_3pin_5mm
+Screw terminal block. DEGSON 301. MF301; KF301  5mm Strong
+Screw terminal 
 0
 3
 3
@@ -106740,5 +106754,5 @@ ESP32-C3_Pro_mini_pin
 
 
 0
-16
+32
 16
